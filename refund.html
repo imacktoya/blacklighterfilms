@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blacklighter Films | Terms</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="wrap" style="padding-bottom:18px;">
+    <div class="brand">
+      <h1><a href="index.html">Blacklighter Films</a></h1>
+      <p class="tag">Terms of Service</p>
+    </div>
+    <nav class="nav">
+      <a href="index.html#contact">Contact</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="refund.html">Refunds</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h3>Terms</h3>
+      <p class="fineprint">Last updated: <span id="d"></span></p>
+      <p class="fineprint">
+        Blacklighter Films provides photography and video production services. By booking services,
+        you agree to the scope, pricing, and delivery terms confirmed in writing (invoice, email, or message).
+      </p>
+
+      <h4>Booking & Payment</h4>
+      <p class="fineprint">
+        A deposit may be required to reserve dates. Final payment is due before delivery of final files unless otherwise agreed.
+      </p>
+
+      <h4>Deliverables</h4>
+      <p class="fineprint">
+        Deliverables, turnaround time, and usage rights are defined per project.
+      </p>
+
+      <h4>Contact</h4>
+      <p class="fineprint">Email: YOUR_EMAIL@domain.com</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© <span id="y"></span> Blacklighter Films.</p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+    document.getElementById("d").textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
